@@ -24,7 +24,7 @@ const AboutSection = ({ darkMode }: AboutSectionProps) => {
             <div className={`w-80 h-80 rounded-3xl mx-auto ${
               darkMode ? 'bg-gradient-to-br from-purple-400 to-pink-400' : 'bg-gradient-to-br from-white/30 to-white/20'
             } backdrop-blur-md border border-white/30 flex items-center justify-center animate-float`}>
-              <div className="text-6xl font-bold text-white">👨‍💻</div>
+              <div className="text-6xl font-bold text-white">👩‍💻</div>
             </div>
           </div>
 
@@ -36,26 +36,38 @@ const AboutSection = ({ darkMode }: AboutSectionProps) => {
               <p className={`text-lg font-inter leading-relaxed mb-6 ${
                 darkMode ? 'text-gray-200' : 'text-white/90'
               }`}>
-                I'm a passionate full-stack developer with 5+ years of experience building scalable web applications. 
-                I love turning complex problems into elegant, user-friendly solutions.
+                I'm a passionate web development intern and Python developer currently pursuing Electronic Communication Engineering B.tech 
+                at Guru Nanak Institute of Technology, Hyderabad.
               </p>
               
               <p className={`text-lg font-inter leading-relaxed mb-6 ${
                 darkMode ? 'text-gray-200' : 'text-white/90'
               }`}>
-                When I'm not coding, you'll find me exploring the latest AI technologies, contributing to open-source projects, 
-                or experimenting with new frameworks.
+                With hands-on experience at companies like MY JOB GROW and CODESOFT, I specialize in creating responsive web applications, 
+                enhancing user interfaces, and developing secure solutions using Python and JavaScript.
               </p>
 
-              {/* Fun Fact */}
+              {/* Education & Achievements */}
               <div className={`p-4 rounded-2xl ${
                 darkMode ? 'bg-purple-500/20 border border-purple-500/30' : 'bg-white/20 border border-white/30'
-              } backdrop-blur-md`}>
+              } backdrop-blur-md mb-4`}>
                 <p className={`text-sm font-inter ${
                   darkMode ? 'text-purple-200' : 'text-white/80'
                 }`}>
-                  <span className="font-semibold">Fun Fact:</span> I automate my coffee maker with Python! 
-                  My morning routine starts with perfectly timed coffee thanks to a Raspberry Pi setup.
+                  <span className="font-semibold">Education:</span> B.tech in Electronic Communication Engineering (GPA: 8.9) 
+                  from Guru Nanak Institute of Technology
+                </p>
+              </div>
+
+              {/* Certifications */}
+              <div className={`p-4 rounded-2xl ${
+                darkMode ? 'bg-blue-500/20 border border-blue-500/30' : 'bg-white/20 border border-white/30'
+              } backdrop-blur-md`}>
+                <p className={`text-sm font-inter ${
+                  darkMode ? 'text-blue-200' : 'text-white/80'
+                }`}>
+                  <span className="font-semibold">Certifications:</span> IBM Developer skill on Python, 
+                  Web Development Intern certification from MY JOB GROW
                 </p>
               </div>
             </div>

@@ -7,28 +7,28 @@ interface AchievementsSectionProps {
 
 const achievements = [
   {
-    number: 30,
-    suffix: '%',
-    title: 'Conversion Increase',
-    description: 'Improved e-commerce platform conversion rates at TechCorp'
+    number: 8.9,
+    suffix: '',
+    title: 'GPA Score',
+    description: 'Academic excellence in Electronic Communication Engineering'
   },
   {
-    number: 50,
+    number: 3,
     suffix: '+',
-    title: 'Projects Completed',
-    description: 'Successfully delivered full-stack applications'
+    title: 'Internships Completed',
+    description: 'Gained practical experience in web development and Python'
   },
   {
-    number: 99.9,
-    suffix: '%',
-    title: 'Uptime Achieved',
-    description: 'Maintained critical system availability'
+    number: 4,
+    suffix: '+',
+    title: 'Projects Delivered',
+    description: 'Successfully completed diverse web and Python applications'
   },
   {
-    number: 25,
+    number: 93,
     suffix: '%',
-    title: 'Performance Boost',
-    description: 'Optimized application load times across multiple projects'
+    title: 'Academic Performance',
+    description: 'Consistent high performance throughout education'
   }
 ];
 

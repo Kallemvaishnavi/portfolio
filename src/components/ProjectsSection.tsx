@@ -9,34 +9,34 @@ interface ProjectsSectionProps {
 
 const projects = [
   {
-    title: 'E-Commerce Platform',
-    description: 'Full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include real-time inventory, payment processing, and admin dashboard.',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop',
+    title: 'Personal Portfolio Website',
+    description: 'Designed and developed a personal portfolio website showcasing skills, projects, and achievements. Implemented a modern and responsive user interface using JavaScript and TypeScript for static typing.',
+    technologies: ['JavaScript', 'TypeScript', 'HTML', 'CSS'],
+    image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop',
     github: '#',
     demo: '#'
   },
   {
-    title: 'AI Task Manager',
-    description: 'Intelligent task management app with AI-powered priority suggestions, natural language processing, and smart scheduling.',
-    technologies: ['Python', 'React', 'OpenAI API', 'PostgreSQL'],
-    image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop',
+    title: 'Online Quiz Application',
+    description: 'Developed a quiz app where users can answer multiple-choice questions, get real-time feedback, and see their score at the end. Includes features like timer, question randomization, and dynamic difficulty levels.',
+    technologies: ['Python', 'JavaScript', 'HTML', 'CSS'],
+    image: 'https://images.unsplash.com/photo-1606134256789-5b5beac4ae15?w=500&h=300&fit=crop',
     github: '#',
     demo: '#'
   },
   {
-    title: 'Real-time Chat App',
-    description: 'Scalable chat application with WebSocket support, file sharing, and group messaging. Built with modern web technologies.',
-    technologies: ['React', 'Socket.io', 'Express', 'Redis'],
-    image: 'https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=500&h=300&fit=crop',
+    title: 'Password Generator',
+    description: 'Developed a secure password generator in Python, improving functionality and ensuring strong, randomized password creation for enhanced security.',
+    technologies: ['Python', 'Security'],
+    image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=500&h=300&fit=crop',
     github: '#',
     demo: '#'
   },
   {
-    title: 'Analytics Dashboard',
-    description: 'Comprehensive analytics dashboard with real-time data visualization, custom reports, and interactive charts.',
-    technologies: ['React', 'D3.js', 'Python', 'FastAPI'],
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop',
+    title: 'Rock-Paper-Scissors Game',
+    description: 'Developed a Rock-Paper-Scissors game in Python, focusing on improving user interaction, implementing game logic, and enhancing overall performance.',
+    technologies: ['Python', 'Game Logic'],
+    image: 'https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500&h=300&fit=crop',
     github: '#',
     demo: '#'
   }

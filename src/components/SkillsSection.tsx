@@ -6,14 +6,14 @@ interface SkillsSectionProps {
 }
 
 const skills = [
-  { name: 'JavaScript', level: 95, color: 'from-yellow-400 to-orange-500' },
-  { name: 'React', level: 90, color: 'from-blue-400 to-blue-600' },
-  { name: 'Python', level: 88, color: 'from-green-400 to-blue-500' },
-  { name: 'Node.js', level: 85, color: 'from-green-500 to-green-700' },
-  { name: 'TypeScript', level: 87, color: 'from-blue-500 to-indigo-600' },
-  { name: 'AWS', level: 80, color: 'from-orange-400 to-red-500' },
-  { name: 'MongoDB', level: 83, color: 'from-green-600 to-green-800' },
-  { name: 'PostgreSQL', level: 82, color: 'from-blue-600 to-purple-600' },
+  { name: 'Python', level: 95, color: 'from-green-400 to-blue-500' },
+  { name: 'JavaScript', level: 90, color: 'from-yellow-400 to-orange-500' },
+  { name: 'HTML/CSS', level: 88, color: 'from-orange-400 to-red-500' },
+  { name: 'SQL', level: 85, color: 'from-blue-500 to-indigo-600' },
+  { name: 'React', level: 82, color: 'from-blue-400 to-blue-600' },
+  { name: 'Java', level: 80, color: 'from-red-500 to-red-700' },
+  { name: 'TypeScript', level: 75, color: 'from-blue-600 to-purple-600' },
+  { name: 'Android Development', level: 70, color: 'from-green-500 to-green-700' },
 ];
 
 const SkillsSection = ({ darkMode }: SkillsSectionProps) => {
@@ -54,7 +54,7 @@ const SkillsSection = ({ darkMode }: SkillsSectionProps) => {
           <h2 className={`text-4xl md:text-5xl font-poppins font-bold mb-4 ${
             darkMode ? 'text-white' : 'text-white'
           } ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
-            Technologies I Excel At
+            Technical Skills
           </h2>
           <div className={`w-24 h-1 mx-auto ${
             darkMode ? 'bg-gradient-to-r from-purple-400 to-pink-400' : 'bg-gradient-to-r from-white to-white/50'

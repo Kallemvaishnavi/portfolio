@@ -9,7 +9,7 @@ interface HeroSectionProps {
 
 const HeroSection = ({ darkMode }: HeroSectionProps) => {
   const [displayText, setDisplayText] = useState('');
-  const fullText = 'Full-Stack Developer | AI Enthusiast | Problem Solver';
+  const fullText = 'Web Development Intern | Python Developer | Problem Solver';
 
   useEffect(() => {
     let index = 0;
@@ -40,7 +40,7 @@ const HeroSection = ({ darkMode }: HeroSectionProps) => {
           } backdrop-blur-md border border-white/30 flex items-center justify-center text-4xl font-bold ${
             darkMode ? 'text-white' : 'text-white'
           }`}>
-            AT
+            KV
           </div>
         </div>
 
@@ -48,15 +48,23 @@ const HeroSection = ({ darkMode }: HeroSectionProps) => {
         <h1 className={`text-5xl md:text-7xl font-poppins font-bold mb-6 ${
           darkMode ? 'text-white' : 'text-white'
         }`}>
-          Alex Thompson
+          Kallem Vaishnavi
         </h1>
 
         {/* Typing Animation */}
-        <div className={`text-xl md:text-2xl font-inter mb-8 h-8 ${
+        <div className={`text-xl md:text-2xl font-inter mb-4 h-8 ${
           darkMode ? 'text-gray-200' : 'text-white/90'
         }`}>
           {displayText}
           <span className="animate-pulse">|</span>
+        </div>
+
+        {/* Contact Info */}
+        <div className={`text-sm md:text-base font-inter mb-8 ${
+          darkMode ? 'text-gray-300' : 'text-white/80'
+        }`}>
+          <p>Hyderabad | kallemvaishnavi28@gmail.com | 7659013760</p>
+          <p>linkedin.com/in/kallem-vaishnavi</p>
         </div>
 
         {/* CTA Buttons */}
@@ -97,7 +105,7 @@ const HeroSection = ({ darkMode }: HeroSectionProps) => {
             <Github className="h-6 w-6" />
           </a>
           <a 
-            href="#" 
+            href="https://linkedin.com/in/kallem-vaishnavi" 
             className={`p-3 rounded-full bg-white/20 backdrop-blur-md border border-white/30 ${
               darkMode ? 'text-white hover:bg-white/30' : 'text-white hover:bg-white/30'
             } transition-all duration-300 hover:scale-110 animate-glow`}
