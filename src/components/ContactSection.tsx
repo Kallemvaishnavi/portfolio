@@ -146,7 +146,7 @@ const ContactSection = ({ darkMode }: ContactSectionProps) => {
                 <p className={`font-inter ${
                   darkMode ? 'text-purple-200' : 'text-white/80'
                 }`}>
-                  <span className="font-semibold">Email:</span> alex.thompson@email.com
+                  <span className="font-semibold">Email:</span> kallemvaishnavi28@gmail.com
                 </p>
               </div>
 
