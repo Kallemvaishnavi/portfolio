@@ -152,7 +152,9 @@ const ContactSection = ({ darkMode }: ContactSectionProps) => {
 
               <div className="flex space-x-4">
                 <a 
-                  href="#" 
+                  href="https://github.com/Kallemvaishnavi" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`p-4 rounded-full ${
                     darkMode ? 'bg-white/10' : 'bg-white/20'
                   } backdrop-blur-md border border-white/30 text-white hover:bg-white/30 transition-all duration-300 hover:scale-110 animate-glow`}

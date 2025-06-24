@@ -97,7 +97,9 @@ const HeroSection = ({ darkMode }: HeroSectionProps) => {
         {/* Social Links */}
         <div className="flex justify-center space-x-6 mb-12">
           <a 
-            href="#" 
+            href="https://github.com/Kallemvaishnavi" 
+            target="_blank"
+            rel="noopener noreferrer"
             className={`p-3 rounded-full bg-white/20 backdrop-blur-md border border-white/30 ${
               darkMode ? 'text-white hover:bg-white/30' : 'text-white hover:bg-white/30'
             } transition-all duration-300 hover:scale-110 animate-glow`}
