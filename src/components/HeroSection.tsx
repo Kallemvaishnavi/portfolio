@@ -28,7 +28,7 @@ const HeroSection = ({ darkMode }: HeroSectionProps) => {
   const handleDownloadResume = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = '/resume.pdf'; // This will look for resume.pdf in the public folder
+    link.href = 'http://kallemvaishnavi/webportfolio/.com'; // Updated URL
     link.download = 'Kallem_Vaishnavi_Resume.pdf';
     link.target = '_blank'; // Open in new tab so user can view it
     document.body.appendChild(link);
@@ -40,14 +40,16 @@ const HeroSection = ({ darkMode }: HeroSectionProps) => {
   return (
     <section className="min-h-screen flex items-center justify-center px-4 py-20">
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
-        {/* Avatar/3D Element */}
+        {/* Avatar/Photo */}
         <div className="mb-8 animate-float">
-          <div className={`w-32 h-32 rounded-full mx-auto mb-6 ${
-            darkMode ? 'bg-gradient-to-br from-purple-400 to-pink-400' : 'bg-gradient-to-br from-white/30 to-white/20'
-          } backdrop-blur-md border border-white/30 flex items-center justify-center text-4xl font-bold ${
-            darkMode ? 'text-white' : 'text-white'
-          }`}>
-            KV
+          <div className={`w-32 h-32 rounded-full mx-auto mb-6 overflow-hidden ${
+            darkMode ? 'border-4 border-purple-400/50' : 'border-4 border-white/30'
+          } backdrop-blur-md shadow-2xl`}>
+            <img 
+              src="/lovable-uploads/855153c6-26b1-4457-a1b9-43571a583caf.png" 
+              alt="Kallem Vaishnavi"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
