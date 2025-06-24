@@ -30,6 +30,7 @@ const HeroSection = ({ darkMode }: HeroSectionProps) => {
     const link = document.createElement('a');
     link.href = '/resume.pdf'; // This will look for resume.pdf in the public folder
     link.download = 'Kallem_Vaishnavi_Resume.pdf';
+    link.target = '_blank'; // Open in new tab so user can view it
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -114,6 +115,8 @@ const HeroSection = ({ darkMode }: HeroSectionProps) => {
           </a>
           <a 
             href="https://linkedin.com/in/kallem-vaishnavi" 
+            target="_blank"
+            rel="noopener noreferrer"
             className={`p-3 rounded-full bg-white/20 backdrop-blur-md border border-white/30 ${
               darkMode ? 'text-white hover:bg-white/30' : 'text-white hover:bg-white/30'
             } transition-all duration-300 hover:scale-110 animate-glow`}
