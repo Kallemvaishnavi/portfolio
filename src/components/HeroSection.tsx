@@ -26,7 +26,13 @@ const HeroSection = ({ darkMode }: HeroSectionProps) => {
   }, []);
 
   const handleDownloadResume = () => {
-    // This would typically trigger a download of the actual resume
+    // Create a link element and trigger download
+    const link = document.createElement('a');
+    link.href = '/resume.pdf'; // This will look for resume.pdf in the public folder
+    link.download = 'Kallem_Vaishnavi_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
     console.log('Downloading resume...');
   };
 
